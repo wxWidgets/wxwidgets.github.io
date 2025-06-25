@@ -198,7 +198,7 @@ are available below.
 <div class="accordion" id="accordionMSW{{ release_id }}">
         {% assign first_available_compiler = true %}
         {% for compiler in page.compilers reversed %}
-          {% assign asset_filename = "wxMSW-" | append: release_version_bin | append: "_" | append: compiler.id | append: "_Dev.7z" %}
+          {% assign asset_filename = "wxMSW-" | append: release_version_bin | append: "_" | append: compiler.id | append: "_x64_Dev.7z" %}
           {% assign dev_asset = release_assets | where: "name", asset_filename | first %}
 
           {% if dev_asset %}
