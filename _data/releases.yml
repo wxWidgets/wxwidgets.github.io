@@ -2,13 +2,14 @@
   description: Development
   channel: development
   released: June 6, 2025
+  has_anaconda: true
 - version: 3.2.8
   description: Latest Stable
   channel: stable
   released: April 24th, 2025
   stable_api_since: July 7, 2022
-  bin_url_debian: https://docs.codelite.org/wxWidgets/repo320/#ubuntu-and-debian
-  bin_url_fedora: https://docs.codelite.org/wxWidgets/repo320/#fedora-and-opensuse
+  bin_url_debian: https://docs.codelite.org/wxWidgets/repo32/#ubuntu-and-debian
+  bin_url_fedora: https://docs.codelite.org/wxWidgets/repo32/#fedora-and-opensuse
 - version: 3.0.5
   description: Old Stable
   channel: old_stable

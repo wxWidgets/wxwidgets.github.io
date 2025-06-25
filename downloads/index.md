@@ -145,6 +145,8 @@ are available below.
         </button> <br/>
 
         <br />
+
+        {% if release.bin_url_debian and release.bin_url_fedora %}
         Thanks to <a href="https://codelite.org/">CodeLite</a> team, binaries for common Linux distributions
         are also available, please see <a href="https://docs.codelite.org/wxWidgets/repo320/">the instructions</a>
         for using their repository, which contains packages for:
@@ -152,8 +154,11 @@ are available below.
           <li><a href="{{ release.bin_url_debian }}" target="_new">Debian / Ubuntu</a></li>
           <li><a href="{{ release.bin_url_fedora }}" target="_new">Fedora / openSUSE</a></li>
         </ul>
+        {% endif %}
 
+        {% if release.has_anaconda %}
         wxWidgets is also on <a href="https://anaconda.org/conda-forge/wxwidgets"> <img src="https://anaconda.org/conda-forge/wxwidgets/badges/version.svg" /> </a>
+        {% endif %}
       </div>
       <div class="card-footer text-muted">
         <i class="fab fa-github fa-fw"></i> <a href="{{ release_info.html_url }}">Release Information on GitHub</a>
