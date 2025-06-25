@@ -135,7 +135,7 @@ are available below.
       <div class="card-body">
 
         DLLs for the selected compilers are available, please read
-        <a href="https://docs.wxwidgets.org/3.2.1/plat_msw_binaries.html">the instructions</a>
+        <a href="https://docs.wxwidgets.org/{{ release.version }}/plat_msw_binaries.html">the instructions</a>
         explaining how to use them.<br />
 
         <br />
