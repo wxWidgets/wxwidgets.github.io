@@ -220,17 +220,23 @@ are available below.
                   </p>
 
             {% for architecture in page.architectures %}
-              <h6 class="card-subtitle text-muted">{{ architecture.description }}</h6>
-              <p class="card-text ml-2">
+              {% assign show_architecture_description = true %}
               {% for bin in page.binaries %}
                 {% assign asset_filename = "wxMSW-" | append: release_version_bin | append: "_" | append: compiler.id | append: architecture.postfix | append: "_" | append: bin.id | append: ".7z" %}
                 {% assign asset = release_assets | where: "name", asset_filename | first %}
                 {% if asset %}
-                <a href="{{ asset.browser_download_url }}" class="wxdl_{{ asset.id }}">{{ bin.description }}</a> 
-                <br />
+                  {% if show_architecture_description %}
+                    <h6 class="card-subtitle text-muted">{{ architecture.description }}</h6>
+                    <p class="card-text ml-2">
+                    {% assign show_architecture_description = false %}
+                  {% endif %}
+                  <a href="{{ asset.browser_download_url }}" class="wxdl_{{ asset.id }}">{{ bin.description }}</a> 
+                  <br />
                 {% endif %}
               {% endfor %}
-              </p>
+              {% unless show_architecture_description %}
+                </p>
+              {% endunless %}
             {% endfor %}
 
                 </div>
