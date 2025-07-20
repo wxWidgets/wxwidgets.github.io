@@ -16,7 +16,7 @@ The latest stable release is 3.2.8.1, released on 2025-05-25. This is the ninth 
 
 ## Development branch: 3.3.x
 
-New development happens on the master branch and will lead to the next stable release (3.4.0) in the future. Currently we provide a development (not meaning that it is unsuitable for use in production, but just that it doesn't provide stability guarantees of a stable release) 3.3.0, released on 2025-06-06. Next release 3.3.1 will be probably done in the autumn of 2025 with 3.4.0 coming in 2026.
+New development happens on the master branch and will lead to the next stable release (3.4.0) in the future. The latest a development (not meaning that it is unsuitable for use in production, but just that it doesn't provide stability guarantees of a stable release) release is 3.3.1, released on 2025-07-21. Next release, 3.3.2, will be probably done in the autumn of 2025 with 3.4.0 coming in 2026.
 
 ## Old stable branch: 3.0.x
 
