@@ -9,7 +9,6 @@ Welcome to the wxWidgets FAQ. Please select a category:
 * [Windows Specific Questions](/docs/faq/windows/)
 * [macOS Specific Questions](/docs/faq/osx/)
 * [GTK+ Specific Questions](/docs/faq/gtk/)
-* [Motif Specific Questions](/docs/faq/motif/)
 * [X11 Specific Questions](/docs/faq/x11/)
 
 For further information, please see the build and install instructions for the individual
