@@ -8,23 +8,23 @@ This is a small taste of some of the applications built with wxWidgets.
 
 <div class="row thumbnails">
   <div class="col-6 col-sm-3">
-    <a data-fancybox="iconvectors" href="iconvectors-1.png" title="IconVectors on Windows - Source Code">
-      <img src="iconvectors-1-thumb.png" class="img-thumbnail" alt="IconVectors on Windows - Source Code">
+    <a data-fancybox="iconvectors" href="iconvectors-1.jpg" title="IconVectors on Windows - Source Code">
+      <img src="iconvectors-1-thumb.jpg" class="img-thumbnail" alt="IconVectors on Windows - Source Code">
     </a>
   </div>
   <div class="col-6 col-sm-3">
-    <a data-fancybox="iconvectors" href="iconvectors-2.png" title="IconVectors on Windows - About">
-      <img src="iconvectors-2-thumb.png" class="img-thumbnail" alt="IconVectors on Windows - About">
+    <a data-fancybox="iconvectors" href="iconvectors-2.jpg" title="IconVectors on Windows - About">
+      <img src="iconvectors-2-thumb.jpg" class="img-thumbnail" alt="IconVectors on Windows - About">
     </a>
   </div>
   <div class="col-6 col-sm-3">
-    <a data-fancybox="iconvectors" href="iconvectors-3.png" title="IconVectors on Windows - Dark Theme">
-      <img src="iconvectors-3-thumb.png" class="img-thumbnail" alt="IconVectors on Windows - Dark Theme">
+    <a data-fancybox="iconvectors" href="iconvectors-3.jpg" title="IconVectors on Windows - Dark Theme">
+      <img src="iconvectors-3-thumb.jpg" class="img-thumbnail" alt="IconVectors on Windows - Dark Theme">
     </a>
   </div>
   <div class="col-6 col-sm-3">
-    <a data-fancybox="iconvectors" href="iconvectors-4.png" title="IconVectors on MacOS - Dark Theme">
-      <img src="iconvectors-4-thumb.png" class="img-thumbnail" alt="IconVectors on MacOS - Dark Theme">
+    <a data-fancybox="iconvectors" href="iconvectors-4.jpg" title="IconVectors on MacOS - Dark Theme">
+      <img src="iconvectors-4-thumb.jpg" class="img-thumbnail" alt="IconVectors on MacOS - Dark Theme">
     </a>
   </div>
 </div>
