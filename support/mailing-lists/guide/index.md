@@ -1,5 +1,7 @@
 ---
 title: "Mailing List Posting Guide"
+redirect_from:
+  - /support/mlhowto.htm
 ---
 
 This guide explains how to use the wxWidgets mailing lists effectively.
