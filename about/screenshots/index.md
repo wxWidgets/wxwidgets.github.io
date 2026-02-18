@@ -4,6 +4,38 @@ title: "Screenshots"
 
 This is a small taste of some of the applications built with wxWidgets.
 
+## IconVectors
+
+<div class="row thumbnails">
+  <div class="col-6 col-sm-3">
+    <a data-fancybox="iconvectors" href="iconvectors-1.jpg" title="IconVectors on Windows - Source Code">
+      <img src="iconvectors-1-thumb.jpg" class="img-thumbnail" alt="IconVectors on Windows - Source Code">
+    </a>
+  </div>
+  <div class="col-6 col-sm-3">
+    <a data-fancybox="iconvectors" href="iconvectors-2.jpg" title="IconVectors on Windows - About">
+      <img src="iconvectors-2-thumb.jpg" class="img-thumbnail" alt="IconVectors on Windows - About">
+    </a>
+  </div>
+  <div class="col-6 col-sm-3">
+    <a data-fancybox="iconvectors" href="iconvectors-3.jpg" title="IconVectors on Windows - Dark Theme">
+      <img src="iconvectors-3-thumb.jpg" class="img-thumbnail" alt="IconVectors on Windows - Dark Theme">
+    </a>
+  </div>
+  <div class="col-6 col-sm-3">
+    <a data-fancybox="iconvectors" href="iconvectors-4.jpg" title="IconVectors on MacOS - Dark Theme">
+      <img src="iconvectors-4-thumb.jpg" class="img-thumbnail" alt="IconVectors on MacOS - Dark Theme">
+    </a>
+  </div>
+</div>
+
+Axialis [IconVectors][iconvectors], is a professional SVG icon editor, designed for developers 
+who create or customize vector icons. It offers pixel-perfect editing, real-time export to 
+code (SVG, React, Vue, XAML, C++), and optimized output ready for integration into apps and 
+websites. Available for Windows and macOS, with a Linux version coming soon.
+
+[iconvectors]: http://iconvectors.io/
+
 
 ## CopperCube
 

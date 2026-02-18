@@ -1,14 +1,17 @@
-- version: 3.2.4
+- version: 3.3.1
+  description: Development
+  channel: development
+  released: July 21, 2025
+  url_anaconda: https://anaconda.org/conda-forge/wxwidgets
+- version: 3.2.9
   description: Latest Stable
   channel: stable
-  released: November 11, 2023
+  released: December 12th, 2025
   stable_api_since: July 7, 2022
-  bin_url_debian: https://docs.codelite.org/wxWidgets/repo320/#ubuntu-and-debian
-  bin_url_fedora: https://docs.codelite.org/wxWidgets/repo320/#fedora-and-opensuse
+  url_codelite: https://docs.codelite.org/wxWidgets/repo32/
 - version: 3.0.5
   description: Old Stable
   channel: old_stable
   released: April 27th, 2020
   stable_api_since: November 11th, 2013
-  bin_url_debian: https://wiki.codelite.org/pmwiki.php/Main/WxWidgets30Binaries#toc2
-  bin_url_fedora: https://wiki.codelite.org/pmwiki.php/Main/WxWidgets30Binaries#toc3
+  url_codelite: https://wiki.codelite.org/pmwiki.php/Main/WxWidgets30Binaries

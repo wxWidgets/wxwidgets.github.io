@@ -44,6 +44,14 @@ compilers:
     id: gcc1210
   - description: "MSYS2 MinGW-w64 12.2"
     id: gcc1220
+  - description: "MSYS2 MinGW-w64 13.2"
+    id: gcc1320
+  - description: "MSYS2 MinGW-w64 14.2"
+    id: gcc1420
+  - description: "MSYS2 14.2 UCRT"
+    id: gcc1420UCRT
+  - description: "MSYS2 MinGW-w64 15.1"
+    id: gcc1510
   - description: "Visual Studio 2008"
     id: vc90
   - description: "Visual Studio 2010"
@@ -129,7 +137,7 @@ are available below.
       <div class="card-body">
 
         DLLs for the selected compilers are available, please read
-        <a href="https://docs.wxwidgets.org/3.2.1/plat_msw_binaries.html">the instructions</a>
+        <a href="https://docs.wxwidgets.org/{{ release.version }}/plat_msw_binaries.html">the instructions</a>
         explaining how to use them.<br />
 
         <br />
@@ -139,15 +147,16 @@ are available below.
         </button> <br/>
 
         <br />
-        Thanks to <a href="https://codelite.org/">CodeLite</a> team, binaries for common Linux distributions
-        are also available, please see <a href="https://docs.codelite.org/wxWidgets/repo320/">the instructions</a>
-        for using their repository, which contains packages for:
-        <ul>
-          <li><a href="{{ release.bin_url_debian }}" target="_new">Debian / Ubuntu</a></li>
-          <li><a href="{{ release.bin_url_fedora }}" target="_new">Fedora / openSUSE</a></li>
-        </ul>
 
-        wxWidgets is also on <a href="https://anaconda.org/conda-forge/wxwidgets"> <img src="https://anaconda.org/conda-forge/wxwidgets/badges/version.svg" /> </a>
+        {% if release.url_codelite %}
+        Thanks to <a href="https://codelite.org/">CodeLite</a> team, binaries for common Linux distributions
+        are also available, please see <a href="{{ release.url_codelite }}">the instructions</a>
+        for using their repository.
+        {% endif %}
+
+        {% if release.url_anaconda %}
+        wxWidgets is also on <a href="{{ release.url_anaconda }}"> <img src="{{ release.url_anaconda }}/badges/version.svg" /> </a>
+        {% endif %}
       </div>
       <div class="card-footer text-muted">
         <i class="fab fa-github fa-fw"></i> <a href="{{ release_info.html_url }}">Release Information on GitHub</a>
@@ -192,7 +201,7 @@ are available below.
 <div class="accordion" id="accordionMSW{{ release_id }}">
         {% assign first_available_compiler = true %}
         {% for compiler in page.compilers reversed %}
-          {% assign asset_filename = "wxMSW-" | append: release_version_bin | append: "_" | append: compiler.id | append: "_Dev.7z" %}
+          {% assign asset_filename = "wxMSW-" | append: release_version_bin | append: "_" | append: compiler.id | append: "_x64_Dev.7z" %}
           {% assign dev_asset = release_assets | where: "name", asset_filename | first %}
 
           {% if dev_asset %}
@@ -213,17 +222,23 @@ are available below.
                   </p>
 
             {% for architecture in page.architectures %}
-              <h6 class="card-subtitle text-muted">{{ architecture.description }}</h6>
-              <p class="card-text ml-2">
+              {% assign show_architecture_description = true %}
               {% for bin in page.binaries %}
                 {% assign asset_filename = "wxMSW-" | append: release_version_bin | append: "_" | append: compiler.id | append: architecture.postfix | append: "_" | append: bin.id | append: ".7z" %}
                 {% assign asset = release_assets | where: "name", asset_filename | first %}
                 {% if asset %}
-                <a href="{{ asset.browser_download_url }}" class="wxdl_{{ asset.id }}">{{ bin.description }}</a> 
-                <br />
+                  {% if show_architecture_description %}
+                    <h6 class="card-subtitle text-muted">{{ architecture.description }}</h6>
+                    <p class="card-text ml-2">
+                    {% assign show_architecture_description = false %}
+                  {% endif %}
+                  <a href="{{ asset.browser_download_url }}" class="wxdl_{{ asset.id }}">{{ bin.description }}</a> 
+                  <br />
                 {% endif %}
               {% endfor %}
-              </p>
+              {% unless show_architecture_description %}
+                </p>
+              {% endunless %}
             {% endfor %}
 
                 </div>
