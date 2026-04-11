@@ -6,7 +6,7 @@
 - version: 3.2.10
   description: Latest Stable
   channel: stable
-  released: Match 3, 2026
+  released: March 3, 2026
   stable_api_since: July 7, 2022
   url_codelite: https://docs.codelite.org/wxWidgets/repo32/
 - version: 3.0.5
