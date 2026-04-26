@@ -21,14 +21,14 @@ concurrency:
 
 jobs:
   build:
-    runs-on: ubuntu-22.04
+    runs-on: ubuntu-24.04
     env:
       WX_SITE_DIR: ${{ github.workspace }}
     steps:
       - name: Checkout Website
-        uses: actions/checkout@v3
+        uses: actions/checkout@v6
       - name: Checkout wxWidgets
-        uses: actions/checkout@v3
+        uses: actions/checkout@v6
         with:
           repository: wxWidgets/wxWidgets
           path: wxWidgets
@@ -39,7 +39,7 @@ jobs:
       - name: Setup Ruby
         uses: ruby/setup-ruby@v1
         with:
-          ruby-version: '3.0'
+          ruby-version: '3.4'
           bundler-cache: true
       - name: Update Release Info
         run: ruby update_release_info.rb
