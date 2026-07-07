@@ -12,11 +12,11 @@ Please notice that all dates given in the roadmap are ''very'' tentative. Due to
 
 ## Current stable branch: 3.2.x
 
-The latest stable release is 3.2.10, released on 2026-03-03. This is the eleventh release in the 3.2 branch, started with 3.2.0 on 2022-07-07, and will be followed by at least one more release preserving API _and_ ABI compatibility, next of which will happen a few months after this one.
+The latest stable release is 3.2.11, released on 2026-07-07. This is the twelfth release in the 3.2 branch, started with 3.2.0 on 2022-07-07, and will probably be followed by at least one more release preserving API _and_ ABI compatibility, next of which will happen a few months after this one.
 
 ## Development branch: 3.3.x
 
-New development happens on the master branch and will lead to the next stable release (3.4.0) in the future. The latest a development (not meaning that it is unsuitable for use in production, but just that it doesn't provide stability guarantees of a stable release) release is 3.3.2, released on 2026-03-03. Next release, 3.3.3, should be out in the second half of 2026, with 3.4.0 hopefully coming later the same year.
+New development happens on the master branch and will lead to the next stable release (3.4.0) in the future. The latest a development (not meaning that it is unsuitable for use in production, but just that it doesn't provide stability guarantees of a stable release) release is 3.3.3, released on 2026-07-07. Next release, 3.3.4, should be out in the autumn of 2026, with 3.4.0 hopefully coming later the same year.
 
 ## Old stable branch: 3.0.x
 
