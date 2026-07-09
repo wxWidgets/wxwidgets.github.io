@@ -52,6 +52,8 @@ compilers:
     id: gcc1420UCRT
   - description: "MSYS2 MinGW-w64 15.1"
     id: gcc1510
+  - description: "MSYS2 MinGW-w64 16.1"
+    id: gcc1610
   - description: "Visual Studio 2008"
     id: vc90
   - description: "Visual Studio 2010"
