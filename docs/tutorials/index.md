@@ -82,6 +82,19 @@ page on the community wiki.
       project in popular IDE Code::Blocks.
     </p>
   </li>
+  <li class="list-group-item">
+    <h5 class="mb-1">
+      <a href="https://devmindscape.com/post/wx-fetchcontent/">
+        A Cross-Platform wxWidgets Setup with CMake and FetchContent
+      </a>
+    </h5>
+    <p class="mb-0">
+      Shows how to download, build and statically link wxWidgets as part of your
+      own CMake project, using a single CMakeLists.txt on Windows, macOS and
+      Linux, with no system-wide wxWidgets installation. Includes a video
+      walkthrough and a ready-to-use template repository.
+    </p>
+  </li>
 </div>
 
 
