@@ -1,12 +1,12 @@
-- version: 3.3.3
+- version: 3.3.4
   description: Development
   channel: development
-  released: July 7, 2026
+  released: October 10, 2026
   url_anaconda: https://anaconda.org/conda-forge/wxwidgets
-- version: 3.2.11
+- version: 3.2.12
   description: Latest Stable
   channel: stable
-  released: July 7, 2026
+  released: October 10, 2026
   stable_api_since: July 7, 2022
   url_codelite: https://docs.codelite.org/wxWidgets/repo32/
 - version: 3.0.5
