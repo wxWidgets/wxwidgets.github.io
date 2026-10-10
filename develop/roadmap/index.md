@@ -12,11 +12,11 @@ Please notice that all dates given in the roadmap are ''very'' tentative. Due to
 
 ## Current stable branch: 3.2.x
 
-The latest stable release is 3.2.11, released on 2026-07-07. This is the twelfth release in the 3.2 branch, started with 3.2.0 on 2022-07-07, and will probably be followed by at least one more release preserving API _and_ ABI compatibility, next of which will happen a few months after this one.
+The latest stable release is 3.2.12, released on 2026-10-10. This release continues the 3.2 series, started with 3.2.0 on 2022-07-07, and will probably be followed by at least one more release preserving API _and_ ABI compatibility, next of which will happen a few months after this one.
 
 ## Development branch: 3.3.x
 
-New development happens on the master branch and will lead to the next stable release (3.4.0) in the future. The latest a development (not meaning that it is unsuitable for use in production, but just that it doesn't provide stability guarantees of a stable release) release is 3.3.3, released on 2026-07-07. Next release, 3.3.4, should be out in the autumn of 2026, with 3.4.0 hopefully coming later the same year.
+New development happens on the master branch and will lead to the next stable release (3.4.0) in the future. The latest a development (not meaning that it is unsuitable for use in production, but just that it doesn't provide stability guarantees of a stable release) release is 3.3.4, released on 2026-10-10. This should be the last release in this branch and the next release will be 3.4.0, hopefully coming before the end of the year.
 
 ## Old stable branch: 3.0.x
 
@@ -24,7 +24,7 @@ The latest release in the previous stable branch, 3.0.5, was released on April 2
 
 ## Further plans
 
-We don't have any well-defined for 4.0 release yet.
+The next major release will be 4.0 and we hope to have a functioning wxGTK4 and maybe wxWinRT port in it.
 
 ## Wishes
 
@@ -32,6 +32,5 @@ The following items are currently not planned because we don't have the possibil
 
  * wxAndroid port.
  * Add more functionality to wxiOS port.
- * wxWinRT port.
 
 Please contact us if you'd like to work on any of these projects -- or perhaps fund their development.
